@@ -1,0 +1,27 @@
+HTML stands for Hyper Text Markup Language
+Mainly used for creating Web Pages
+
+Getting Started Hands-on
+1. Boiler code - VScode has by default Emmet Abbreviation which does auto complete all tags, body, head, declaration everything.
+   Best part of it is already incoded in VScode.
+2. Live Server - Best Server for HTML, can install from Extensions.
+3. For Predefined declaration just type - ! and enter.
+4. For any other tags just type letter or word of it and enter.
+5. For commenting use command + /
+6. HTML structure 
+   HTML → head - (title) → Body - (all tags)  
+7. There are h1 to h6 Headings.
+8. For dummy paragraph lorem and number of words you want Eg. lorem33
+9. For link type a and enter.
+10. br for new content on new line.
+11. For image type img and enter.
+12. alt in image is, in case image is not loaded then what to show.
+13. HTML body can be nested meaning it can have multiple tags.
+14. HTML have attributes like href in link.
+15. There are 2 types of src in image link- 1. Absolute URL and 2. Relative URl.
+16. Absolute URL - URL or link to other website external.
+17. Relative URL - URL or link to same website internal.
+18. We can adjust widht and height of image.
+19. Style for adding color or any other styling.
+20. hr is horizontal line.
+21. pre for preformatted text.

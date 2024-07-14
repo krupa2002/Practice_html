@@ -25,3 +25,6 @@ Getting Started Hands-on
 19. Style for adding color or any other styling.
 20. hr is horizontal line.
 21. pre for preformatted text.
+22. A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:
+
+

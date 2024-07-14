@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(237, 109, 141);
+        }
+        header{
+            background-color: pink;
+            padding: 10px;
+            text-align: center;
+            font-size: 43px;
+            color: red;
+        }
+
+        nav{
+            float: left;
+            width: 70%;
+            padding: 20px;
+            background-color: rgb(226, 226, 72);
+            height: 300px;
+        }
+
+        section{
+            display: -webkit-flex;
+            display: flex;
+        }
+        nav {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 1;
+  background: #ed6972;
+  padding:30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: rgb(227, 142, 157);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #d91f1f;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>"The world is a book, and those who do not travel read only one page." – Saint Augustine</h1>
+<p>Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Fushimi Inari Shrine, Kinkaku-j, Arashiyama Bamboo Grove,Statue of Liberty,Central Park,Times Square,Colosseum,Vatican City,Trevi Fountain</p>
+
+<header>
+    <h2>Traveler's Guide</h2>
+  </header>
+  
+  <section>
+    <nav>
+      <ul>
+        <h4>Find cities info here :</h4>
+        <li><a href="london.html">London</a></li>
+        <li><a href="paris.html">Paris</a></li>
+        <li><a href="tokyo.html">Tokyo</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Why Travel?</h1>
+      <p>Traveling opens up a world of new experiences, offering the chance to explore different cultures, cuisines, and landscapes. Each destination has its own unique charm and history, providing endless opportunities for adventure and learning. Whether you're drawn to the historical monuments of Rome, the vibrant streets of New York City, the tranquil temples of Kyoto, or the stunning beaches of Sydney, traveling enriches your life and broadens your perspective. Discover the beauty of the world and create unforgettable memories.</p>
+      
+    </article>
+
+ 
+  </section>
+  
+  <footer>
+    <h4>About Me</h4>
+    <p>Hello! I'm Krupa, an avid traveler and a passionate guide who loves to explore new places and share my experiences. With a background in Artificial Intelligence and Machine Learning, I bring a unique perspective to travel planning, combining technology with adventure. My aim is to inspire and assist fellow travelers in discovering the beauty and wonders of our world. Join me on this journey, and let's explore the globe together!</p>
+  </footer>
+</body>
+</html>

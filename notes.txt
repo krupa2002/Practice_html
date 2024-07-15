@@ -26,5 +26,25 @@ Getting Started Hands-on
 20. hr is horizontal line.
 21. pre for preformatted text.
 22. A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:
+23. Whenever you want to write important statement you should use <strong> tag.
+24. i for italic, small for small text, big for big text, sub for subscript and sup is for superscript
+25. For quotes <blockquote>, <q> for short quote, abb for Abbreviation, <address> for writing address.
+26. mailto: is for sending.
+27. For bookmarks we should id where we want to navigate.
+28. For Area per info on image we should map function and add cordinates of that area so whenever we click on it it open info file.
+29. For adding image behind text we can style in p itself.
+30. For adding image to full screen we need add style in head.
+31. For making table we have <table> tag, for column details we should use col, for row tr- table row, inside it th is header detail.
+32. For cell detail we use td.
+33. For making list we use <li>, we have two types of list unordered list and ordered list.
+34. Unordered list <ul> is for list with bullets or any other symbols.
+35. Ordered list <ol> is for list with sqeuence number or alphabate.
+36. We can use <span> to style particular word.
+37. The class attribute is often used to point to a class name in a style sheet.
+38. The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+39. The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+40. The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+41. A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page
+42. An HTML iframe is used to display a web page within a web page.
 
 
